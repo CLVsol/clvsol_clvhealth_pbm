@@ -452,6 +452,9 @@ def install():
     group_names = []
     install_update_module('l10n_br_base', update, group_names)
 
+    group_names = []
+    install_update_module('l10n_br_zip', update, group_names)
+
     # ################################################################################################################
     #
     # OCA/server-tools
