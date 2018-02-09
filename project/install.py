@@ -484,6 +484,13 @@ def install():
     ]
     install_update_module('clv_base', update, group_names)
 
+    group_names = [
+        'User (File System)',
+        'Manager (File System)',
+        'Super Manager (File System)',
+    ]
+    install_update_module('clv_file_system', update, group_names)
+
     # ################################################################################################################
     #
     # CLVsol Odoo Addons - Brazilian Localization
