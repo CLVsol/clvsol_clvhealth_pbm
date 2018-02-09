@@ -523,6 +523,9 @@ def install():
     #
     # ################################################################################################################
 
+    group_names = []
+    install_update_module('clv_base_pbm', update, group_names)
+
 
 def secondsToStr(t):
 
