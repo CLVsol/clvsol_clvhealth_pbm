@@ -440,6 +440,9 @@ def install():
     group_names = []
     install_update_module('mail', update, group_names)
 
+    group_names = []
+    install_update_module('sales_team', update, group_names)
+
     # ################################################################################################################
     #
     # OCA/l10n-brazil
