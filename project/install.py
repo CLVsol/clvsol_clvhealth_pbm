@@ -498,6 +498,13 @@ def install():
     ]
     install_update_module('clv_global_tag', update, group_names)
 
+    group_names = [
+        'User (Insured)',
+        'Manager (Insured)',
+        'Super Manager (Insured)',
+    ]
+    install_update_module('clv_insured', update, group_names)
+
     # ################################################################################################################
     #
     # CLVsol Odoo Addons - Brazilian Localization
