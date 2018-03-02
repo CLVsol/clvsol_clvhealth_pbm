@@ -531,6 +531,13 @@ def install():
     ]
     install_update_module('clv_cmed_medicament', update, group_names)
 
+    group_names = [
+        'User (ABCFarma Medicament)',
+        'Manager (ABCFarma Medicament)',
+        'Super Manager (ABCFarma Medicament)',
+    ]
+    install_update_module('clv_abcfarma_medicament', update, group_names)
+
     # ################################################################################################################
     #
     # CLVsol Odoo Addons - PBM customizations
@@ -554,6 +561,9 @@ def install():
 
     group_names = []
     install_update_module('clv_cmed_medicament_pbm', update, group_names)
+
+    group_names = []
+    install_update_module('clv_abcfarma_medicament_pbm', update, group_names)
 
 
 def secondsToStr(t):
