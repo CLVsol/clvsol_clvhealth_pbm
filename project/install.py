@@ -506,8 +506,8 @@ def install():
     install_update_module('clv_insured', update, group_names)
 
     group_names = [
-        'User (Insured)',
-        'Manager (Insured)',
+        'User (Medicament)',
+        'Manager (Medicament)',
         'Super Manager (Medicament)',
     ]
     install_update_module('clv_medicament', update, group_names)
@@ -535,6 +535,9 @@ def install():
 
     group_names = []
     install_update_module('clv_file_system_pbm', update, group_names)
+
+    group_names = []
+    install_update_module('clv_global_tag_pbm', update, group_names)
 
     group_names = []
     install_update_module('clv_insured_pbm', update, group_names)
