@@ -506,6 +506,13 @@ def install():
     install_update_module('clv_insured', update, group_names)
 
     group_names = [
+        'User (Card)',
+        'Manager (Card)',
+        'Super Manager (Card)',
+    ]
+    install_update_module('clv_card', update, group_names)
+
+    group_names = [
         'User (Medicament)',
         'Manager (Medicament)',
         'Super Manager (Medicament)',
