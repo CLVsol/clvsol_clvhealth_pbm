@@ -564,6 +564,9 @@ def install():
     install_update_module('clv_insured_pbm', update, group_names)
 
     group_names = []
+    install_update_module('clv_card_pbm', update, group_names)
+
+    group_names = []
     install_update_module('clv_medicament_pbm', update, group_names)
 
     group_names = []
